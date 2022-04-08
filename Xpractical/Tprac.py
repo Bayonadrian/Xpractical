@@ -1,7 +1,7 @@
 from lxml import html
 import requests
 
-class prac:
+class makePath:
 
     def __init__(self, url: str) -> None:
         
@@ -9,7 +9,7 @@ class prac:
         self.xml = html.fromstring(self.req)
         self.path = self.xml.xpath
 
-    def uCommand(self, xpath: str):
+    def look(self, xpath: str):
 
         return self.path(xpath)
 
