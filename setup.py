@@ -1,7 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Adrian Bayona',
+    name='Xpractical',
+    author='Adrian Bayona',
     description='Begin practicing scrapping',
     author_email='ronaldo13_96@outlook.com',
     version='1.0',
